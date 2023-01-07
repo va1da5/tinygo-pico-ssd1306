@@ -4,6 +4,7 @@
 
 - [Static Bitmap](./bitmap/)
 - [Animations](./animation/)
+- [Serial Streaming](./serial/)
 
 ## Notes
 

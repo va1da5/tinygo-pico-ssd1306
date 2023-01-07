@@ -7,8 +7,17 @@ help:
 
 .PHONY: bitmap
 bitmap:
-	cd ./bitmap && make all
+	@cd ./bitmap && make all
 
 .PHONY: animation
 animation:
-	cd ./animation && make all
+	@cd ./animation && make all
+
+
+.PHONY: serial
+serial:
+	@cd ./serial && make all
+
+.PHONY: serial-stream
+serial-stream:
+	go run ./serial/streamer/*.go
